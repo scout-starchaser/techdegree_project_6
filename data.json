@@ -1,0 +1,9 @@
+{ "projects" : [
+  { "id" : 1,
+    "project_name" : "My AWwesome project",
+    "description" : "Lorem ipsum dolor sit amet",
+    "technologies" : ["express", "react"],
+    "live_link" : "",
+    "github_link" : "",
+    "images_urls" : []}
+]}
