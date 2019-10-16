@@ -8,7 +8,7 @@ const { projects } = require('../data.json');
 
 //_ GET routes
 router.get('/', (req, res) => {
-    res.render('index', { projects })
+    res.render('index', { projects });
 });
 
 router.get('/about', (req, res) => {

@@ -20,10 +20,10 @@ app.use('/project/:id', (req, res, next) => {
     const id = parseInt(req.params.id);
     
     if(id >= 0 && id < projects.length) {
-	next();
+        next();
     } else {
-	let err = new Error('I couldn\'t find that :(');
-	next(err);
+        let err = new Error('I couldn\'t find that :(');
+        next(err);
     }
 
 });
@@ -41,7 +41,7 @@ app.use((req, res, next) => {
 
 app.use((err, req, res, next) => {
     if( err.status ) {
-	res.status(err.status);
+        res.status(err.status);
     }
 
     console.error(`[!] An error occurred: ${err.message}`);
