@@ -65,3 +65,4 @@ mockups/
 *~
 *#
 public/
+.eslint*
