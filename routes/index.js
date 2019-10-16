@@ -15,8 +15,8 @@ router.get('/about', (req, res) => {
     res.render('about');
 });
 
-router.get('project/:id', (req, res) => {
-    res.send('<h1> Not yet implemented </h1>');
+router.get('/project/:id', (req, res) => {
+    res.render('project', {project : projects[req.params.id]});
 });
 
 //_ POST routes
