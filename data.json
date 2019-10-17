@@ -1,9 +1,10 @@
 { "projects" : [
-  { "id" : 1,
-    "project_name" : "My AWwesome project",
-    "description" : "Lorem ipsum dolor sit amet",
-    "technologies" : ["express", "react"],
+  { "id" : 0,
+    "project_name" : "Floral.less",
+    "description" : "A cute CSS theme library",
+    "technologies" : ["css", "less", "html", "vanilla js"],
     "live_link" : "",
-    "github_link" : "",
-    "images_urls" : []}
+    "github_link" : "https://github.com/scout-starchaser/Floral.css",
+    "images_urls" : ["/static/images/floral1.png"],
+    "image_square" : "/static/images/floral_square.png"}
 ]}
