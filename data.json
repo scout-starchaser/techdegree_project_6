@@ -3,7 +3,7 @@
     "project_name" : "Floral.less",
     "description" : "A cute CSS theme library",
     "technologies" : ["css", "less", "html", "vanilla js"],
-    "live_link" : "",
+    "live_link" : "http://scout-lynn.com/floral",
     "github_link" : "https://github.com/scout-starchaser/Floral.css",
     "images_urls" : ["/static/images/floral1.png"],
     "image_square" : "/static/images/floral_square.png"}
